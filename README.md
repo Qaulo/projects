@@ -1,1 +1,1 @@
-Project i am doing for Lerning an fun ig.
+Projects i am doing for learning and fun ig.
