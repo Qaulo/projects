@@ -1,18 +1,24 @@
+/* Base styles */
 body {
   background-color: grey;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation */
 nav ul {
   display: flex;
   justify-content: space-between;
-
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 0 10%;
 }
 
 nav ul li {
   background-color: aliceblue;
-  padding: 7px 4px 7px 4px;
+  padding: 7px 4px;
   border-radius: 10px;
 }
 
@@ -20,47 +26,40 @@ nav ul li a {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
-}
-
+/* Heading Section */
 .ueberschrift {
-  margin: 25px 0px 25px 0px;
-
+  margin: 25px 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  flex-direction: column;
 }
 
 .ueberschrift h1,
-p {
-  margin: 0px 0px 0px 0px;
+.ueberschrift p {
+  margin: 0;
 }
 
+/* Main Content Layout */
 .content {
   display: flex;
-  align-items: strech;
   justify-content: center;
-
-  gap: 0px;
-
+  align-items: stretch;
+  gap: 0;
   height: 50vh;
 }
+
 .content section {
-  padding: 8px 18px 8px 18px;
+  padding: 8px 18px;
   border: 2px solid black;
 }
 
-.content .projects,
+/* Section Styles */
+.projects,
 .education {
   flex: 1;
-
+  height: 100%;
   align-content: center;
-
-  height: 100%;
-  height: 100%;
 }
 
 .projects {
