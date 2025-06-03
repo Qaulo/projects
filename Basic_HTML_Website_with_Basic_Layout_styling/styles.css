@@ -60,6 +60,21 @@ p {
   align-content: center;
 
   height: 100%;
-  background-color: red;
   height: 100%;
+}
+
+.projects {
+  background-color: green;
+}
+
+.experience {
+  background-color: blue;
+}
+
+.openSourceWork {
+  background-color: pink;
+}
+
+.education {
+  background-color: red;
 }
