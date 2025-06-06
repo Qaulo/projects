@@ -1,3 +1,5 @@
+/* Base styles */
+
 body {
   background-color: grey;
 }
@@ -23,4 +25,37 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+}
+
+/* Überschrift*/
+.ueberschrift {
+  display: flex;
+  justify-content: center;
+}
+
+.ueberschrift h1 {
+  background-color: aliceblue;
+
+  padding: 15px 150px 15px 150px;
+  border-radius: 10px;
+}
+
+main ul {
+  margin: 0px 100px 0px 100px;
+
+  background-color: aliceblue;
+  padding: 18px 18px 18px 18px;
+  border-radius: 10px;
+}
+
+main ul h4 {
+  font-weight: 800;
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+main ul li p {
+  font-size: 1.2em;
+
+  margin-left: 5vw;
 }

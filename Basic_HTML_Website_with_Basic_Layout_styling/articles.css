@@ -1,0 +1,28 @@
+/* Base styles */
+
+body {
+  background-color: grey;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+nav ul li {
+  background-color: aliceblue;
+  padding: 7px 4px;
+  border-radius: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
