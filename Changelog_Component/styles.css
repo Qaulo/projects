@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5vh;
+  margin-top: 5vh;
+
+  color: aliceblue;
+}
+
+header h1,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
