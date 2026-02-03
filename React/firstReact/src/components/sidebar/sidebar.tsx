@@ -2,21 +2,29 @@ import React from "react";
 
 import "./sidebar.css";
 import { IonButton } from "@ionic/react";
+import AccIcon from "../../svg/Acc.svg";
+
 function Sidebar() {
   return (
     <>
       <div className="sideBar">
-        <div className="sideBarHeader">sideBarHeader</div>
+        <div className="sideBarHeader">
+          <div className="sideBarProfilePicture">
+            <img src={AccIcon} alt="Profile" />
+          </div>
+          <div className="sideBarUserName">UserName</div>
+        </div>
         <div className="sideBarBody">
-          <IonButton color="danger">Btn color danger</IonButton>
-          <IonButton color="dark">Btn color dark</IonButton>
-          <IonButton color="light">Btn color light</IonButton>
-          <IonButton color="medium">Btn color medium</IonButton>
-          <IonButton color="primary">Btn color primary</IonButton>
-          <IonButton color="secondary">Btn color secondary</IonButton>
-          <IonButton color="success">Btn color success</IonButton>
-          <IonButton color="tertiary">Btn color tertiary</IonButton>
-          <IonButton color="warning">Btn color warning</IonButton>
+          <IonButton>Default</IonButton>
+          <IonButton color="primary">Primary</IonButton>
+          <IonButton color="secondary">Secondary</IonButton>
+          <IonButton color="tertiary">Tertiary</IonButton>
+          <IonButton color="success">Success</IonButton>
+          <IonButton color="warning">Warning</IonButton>
+          <IonButton color="danger">Danger</IonButton>
+          <IonButton color="light">Light</IonButton>
+          <IonButton color="medium">Medium</IonButton>
+          <IonButton color="dark">Dark</IonButton>{" "}
         </div>
       </div>
     </>
