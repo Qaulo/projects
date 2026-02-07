@@ -1,7 +1,8 @@
 import React from "react";
 
 import "./sidebar.css";
-import { IonButton } from "@ionic/react";
+import { IonButton, IonIcon } from "@ionic/react";
+import { settingsSharp } from "ionicons/icons";
 import AccIcon from "../../svg/Acc.svg";
 
 function Sidebar() {
@@ -20,7 +21,9 @@ function Sidebar() {
           <IonButton>PlaceHolder</IonButton>
           <IonButton>PlaceHolder</IonButton>
           <IonButton>PlaceHolder</IonButton>
-          <IonButton>Settings</IonButton>
+          <IonButton>
+            <IonIcon slot="start" icon={settingsSharp}></IonIcon>Settings
+          </IonButton>
         </div>
       </div>
     </>
