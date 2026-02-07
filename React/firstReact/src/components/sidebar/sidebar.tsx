@@ -16,15 +16,11 @@ function Sidebar() {
         </div>
         <div className="sideBarBody">
           <IonButton>Default</IonButton>
-          <IonButton color="primary">Primary</IonButton>
-          <IonButton color="secondary">Secondary</IonButton>
-          <IonButton color="tertiary">Tertiary</IonButton>
-          <IonButton color="success">Success</IonButton>
-          <IonButton color="warning">Warning</IonButton>
-          <IonButton color="danger">Danger</IonButton>
-          <IonButton color="light">Light</IonButton>
-          <IonButton color="medium">Medium</IonButton>
-          <IonButton color="dark">Dark</IonButton>{" "}
+          <IonButton color="primary">PlaceHolder</IonButton>
+          <IonButton color="secondary">PlaceHolder</IonButton>
+          <IonButton color="success">PlaceHolder</IonButton>
+          <IonButton color="danger">PlaceHolder</IonButton>
+          <IonButton color="medium">Settings</IonButton>
         </div>
       </div>
     </>

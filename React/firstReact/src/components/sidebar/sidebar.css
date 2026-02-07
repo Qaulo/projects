@@ -19,7 +19,6 @@
 }
 
 .sideBarHeader {
-  gap: 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -39,5 +38,6 @@
 .sideBarUserName {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-grow: 1;
 }
