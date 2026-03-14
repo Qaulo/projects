@@ -1,6 +1,8 @@
 {
   /*React Tutorial from https://react.dev/learn/tutorial-tic-tac-toe */
+  /*Wo war ich: Taking turns Das Taking turn funktioniert noch nicht ganz es bleibt immer ein O nachdem X */
 }
+
 import { useState } from "react";
 import Square from "./Square.jsx";
 
@@ -9,6 +11,9 @@ export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
 
   function handleClick(i) {
+    if (squares[i]) {
+      return;
+    }
     const nextSquares = squares.slice();
     if (xIsNext) {
       nextSquares[i] = "X";
