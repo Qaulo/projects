@@ -73,7 +73,3 @@ function calculateWinner(squares) {
   }
   return null;
 }
-
-{
-  /*Wo war ich: Taking turns Das Taking turn funktioniert noch nicht ganz es bleibt immer ein O nachdem X */
-}
